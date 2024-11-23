@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
+  title: 'POMA',
   description: 'By dev.Poma',
 }
 

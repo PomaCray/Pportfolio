@@ -13,7 +13,7 @@ import Top from "@/components/Top";
 
 export default function Home() {
   // const sectionRefs = useRef<HTMLDivElement[]>([]);
-  const aboutRef = useRef<HTMLDivElement | null>(null);
+
   
   return (
     

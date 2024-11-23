@@ -30,15 +30,7 @@ export default function Footer() {
         </div>
 
         <div className="flex gap-x-3">
-          {/* <button
-            onClick={() => {
-              aboutRef.current?.scrollIntoView({
-                behavior:"smooth"
-              })
-            }} */}
-          
-            <Link href="#Home" className="border-b-2 hover:text-primary/100  duration-300 ">Home</Link>
-      
+          <Link href="#Home" className="border-b-2 hover:text-primary/100  duration-300 ">Home</Link>
           <Link href="#About" className="border-b-2 hover:text-primary/100  duration-300 ">About</Link>
           <Link href="#Work" className="border-b-2 hover:text-primary/100  duration-300 ">Work</Link>
           <Link href="#Skills" className="border-b-2 hover:text-primary/100  duration-300 ">Skills</Link>

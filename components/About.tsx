@@ -5,7 +5,6 @@ import { useRef } from "react";
 import { motion, AnimatePresence} from 'framer-motion'
 
 export default function About() {
-  const aboutRef = useRef<HTMLDivElement | null>(null);
 
   return (
    
