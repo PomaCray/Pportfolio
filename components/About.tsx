@@ -14,10 +14,10 @@ export default function About() {
         <div className="flex flex-col md:flex-row justify-between">
           <div className="flex flex-col md:w-[50%]">
               <h1 className="">
-                Welcome to my web development realm! I'm Abdurrazaq Awwal<span className="text-primary/100">|Poma|</span>
+                Welcome to my web development realm! Im Abdurrazaq Awwal<span className="text-primary/100">|Poma|</span>
               </h1>
               <p className="tracking-wide leading-8">
-              I am a passionate web developer who is proficient in JavaScript, HTML, CSS, SCSS, Tailwind, Bootstrap, React.js, and Next.js. With a passion for crafting dynamic websites and a keen eye for design, I specialize in creating visually appealing, seamless user experiences and crafting exceptional online experiences. Let's collaborate to bring your digital vision to life with cutting-edge technology and design.
+              I am a passionate web developer who is proficient in JavaScript, HTML, CSS, SCSS, Tailwind, Bootstrap, React.js, and Next.js. With a passion for crafting dynamic websites and a keen eye for design, I specialize in creating visually appealing, seamless user experiences and crafting exceptional online experiences. Lets collaborate to bring your digital vision to life with cutting-edge technology and design.
               </p>
           </div>
 

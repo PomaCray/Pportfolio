@@ -20,7 +20,7 @@ export default function Hero() {
           className=''>
             <h1 className="text-3xl font-medium ">Hello, my name is</h1>
               <p className="text-5xl font-bold ">Abdurrazaq Awwal<span className="text-primary/100">|Poma|</span></p>
-              <h1 className="text-3xl font-medium mb-1  flex gap-x-2.5 "> I'm a 
+              <h1 className="text-3xl font-medium mb-1  flex gap-x-2.5 "> Im a 
               <span className='text-3xl text-primary/100'> <Typewriter options={{strings: ['Front-end Web dev', 'Freelancer'],autoStart: true,loop: true,}} /> </span>
               </h1>
               <p className="text-3xl font-medium "> Transforming Ideas <br /> Into{''} <span className="text-primary/100">Digital Reality</span></p>
