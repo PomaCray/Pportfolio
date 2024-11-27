@@ -26,7 +26,11 @@ export default function Hero() {
               <p className="text-xl sm:text-3xl font-medium "> Transforming Ideas <br /> Into{''} <span className="text-primary/100">Digital Reality</span></p>
           </motion.div>
           <motion.div
-
+            initial={{opacity:0, x:-15}}
+            animate={{opacity:1, x:0}}
+            whileInView="visible"
+            transition={{delay:0.5}}
+            viewport={{ once: true }}
           className='mt-10'>
             <ProjectsBtn/>
           </motion.div>
@@ -34,13 +38,13 @@ export default function Hero() {
         </div>
 
         <motion.div
-          // initial={{opacity:0, x:-15}}
-          // animate={{opacity:1, x:0}}
-          // whileInView="visible"
-          // transition={{delay:0.5}}
-          // viewport={{ once: true }}
+          initial={{opacity:0, x:-15}}
+          animate={{opacity:1, x:0}}
+          whileInView="visible"
+          transition={{delay:0.5}}
+          viewport={{ once: true }}
         className='absolute sm:relative top-24 sm:top-12  '>
-            <Image src={'/poma2.jpg'} alt='avatar' className='object-fit rounded-full shadow-2xl h-[12rem] w-[12rem]' width={100} height={100}/>
+            <Image src={'/poma.jpg'} alt='avatar' className='object-fit rounded-full shadow-2xl h-[12rem] w-[12rem] md:h-[18rem] md:w-[18rem]' width={100} height={100}/>
         </motion.div>
 
 </motion.div> 

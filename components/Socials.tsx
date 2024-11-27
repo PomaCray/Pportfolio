@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Socials() {
   return (
-    <div className="flex justify-center w-[65%] sm:w-[50%] md:w-full gap-x-5 md:gap-x-8  bg-primary/60 p-3 shadow-2xl rounded-full">
+    <div className="flex justify-center w-[65%] sm:w-[50%] md:w-full gap-x-5 md:gap-x-8  bg-white/10 p-3 shadow-2xl rounded-full">
       <Link href={'https://github.com/PomaCray'} className="hover:text-secondary/60 transition-all duration-300">
         <Github />
       </Link>
