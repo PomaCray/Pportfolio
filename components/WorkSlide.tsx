@@ -82,7 +82,7 @@ export default function WorkSlide() {
           <SwiperSlide key={seh} >
             <div className='bg-white/10 h-max shadow-xl rounded-lg px-6 py-3 flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-white/20 transition-all duration-300 '>
               <div className='mb-8 flex flex-col'>
-                <div className='mb-2 text-xl font-medium'>{pluto.title}</div>
+                <div className='mb-2 text-sm sm:text-xl font-medium'>{pluto.title}</div>
                 <div className=''>
                 <Image 
                   src={`${pluto.path}`} 

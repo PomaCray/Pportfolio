@@ -10,8 +10,8 @@ export default function Footer() {
 
   return (
     <div>
-      <div className="flex flex-col mx-auto gap-y-5 text-primary/60">
-        <div className="flex gap-x-4">
+      <div className="flex flex-col mx-auto gap-y-5 text-primary/60 ">
+        <div className="flex gap-x-4 ">
           <Link href={'https://github.com/PomaCray'} className="hover:text-primary/100 transition-all duration-300">
             <Github />
           </Link>
@@ -29,7 +29,7 @@ export default function Footer() {
           </Link>
         </div>
 
-        <div className="flex gap-x-3">
+        <div className="flex gap-x-3 text-[0.7rem] sm:text-sm">
           <Link href="#Home" className="border-b-2 hover:text-primary/100  duration-300 ">Home</Link>
           <Link href="#About" className="border-b-2 hover:text-primary/100  duration-300 ">About</Link>
           <Link href="#Work" className="border-b-2 hover:text-primary/100  duration-300 ">Work</Link>
@@ -39,7 +39,7 @@ export default function Footer() {
       </div>
 
         <div className="absolute right-0 text-primary/60">
-          <h1 className="text-xl">Created by <span className="text-primary/100 text-2xl">|Poma|</span>.</h1>
+          <h1 className="text-sm sm:text-xl  ">Created by <span className="text-primary/100 text-md">|Poma|</span>.</h1>
         </div>
    </div>
   )
