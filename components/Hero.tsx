@@ -21,7 +21,7 @@ export default function Hero() {
             <h1 className="text-2xl sm:text-3xl font-medium ">Hello, my name is</h1>
               <p className="text-4xl sm:text-5xl font-bold ">Abdurrazaq Awwal<span className="text-primary/100">|Poma|</span></p>
               <h1 className="text-xl sm:text-3xl font-medium mb-1  flex gap-x-2.5 "> Im a 
-              <span className='text-xl sm:text-3xl text-primary/100'> <Typewriter options={{strings: ['Front-end Web dev', 'Freelancer'],autoStart: true,loop: true,}} /> </span>
+              <span className='text-xl sm:text-3xl text-primary/100'> <Typewriter options={{strings: ['Front-end Web dev', 'Freelancer','content writer', 'MOD'],autoStart: true,loop: true,}} /> </span>
               </h1>
               <p className="text-xl sm:text-3xl font-medium "> Transforming Ideas <br /> Into{''} <span className="text-primary/100">Digital Reality</span></p>
           </motion.div>
@@ -44,7 +44,7 @@ export default function Hero() {
           transition={{delay:0.5}}
           viewport={{ once: true }}
         className='absolute sm:relative top-24 sm:top-12  '>
-            <Image src={'/mendokse.jpg'} alt='avatar' className='object-fit rounded-full shadow-2xl h-[12rem] w-[12rem] md:h-[18rem] md:w-[18rem]' width={100} height={100}/>
+            <Image src={'/poma2.jpg'} alt='avatar' className='object-fit rounded-full shadow-2xl h-[12rem] w-[12rem] md:h-[18rem] md:w-[18rem]' width={100} height={100}/>
         </motion.div>
 
 </motion.div> 
