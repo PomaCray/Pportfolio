@@ -1,17 +1,25 @@
 
 import Link from "next/link";
 
-import { Facebook, Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Briefcase, Facebook, Github, Instagram, Linkedin, Settings, Twitter, User } from "lucide-react";
+import Home from "@/app/page";
 
 
 export default function Footer() {
 
-
+  const links =[
+    {name: 'Home', id: 'Home', icon:<Home/>},
+    {name: 'About', id: 'About', icon:<User/>},
+    {name: 'Work', id: 'Work', icon:<Briefcase/>},
+    {name: 'Skills', id: 'Skills', icon:<Settings/>},
+    
+  ] 
 
   return (
+
     <div>
-      <div className="flex flex-col mx-auto gap-y-5 text-primary/60 ">
-        <div className="flex gap-x-4 ">
+      <div className="flex  mx-auto gap-x-8 text-primary/60 text-[0.7rem]">
+        <div className="flex flex-col gap-y-4 ">
           <Link href={'https://github.com/PomaCray'} className="hover:text-primary/100 transition-all duration-300">
             <Github />
           </Link>
@@ -29,12 +37,25 @@ export default function Footer() {
           </Link>
         </div>
 
-        <div className="flex gap-x-3 text-[0.7rem] sm:text-sm">
-          <Link href="#Home" className="border-b-2 hover:text-primary/100  duration-300 ">Home</Link>
-          <Link href="#About" className="border-b-2 hover:text-primary/100  duration-300 ">About</Link>
-          <Link href="#Work" className="border-b-2 hover:text-primary/100  duration-300 ">Work</Link>
-          <Link href="#Skills" className="border-b-2 hover:text-primary/100  duration-300 ">Skills</Link>
+
+
+        <div className="flex flex-col gap-y-9">
+        {links.map((bad, idy)=>(
+          <div key={idy} className=" ">
+            <button
+                 onClick={()=>{
+                  const element = document.getElementById(`${bad.id}`);
+                  element?.scrollIntoView({
+                  behavior:'smooth'
+                  })
+                    }}  
+                className="text-[0.7rem] sm:text-sm">
+                  <div className="border-b-2 hover:text-primary/100 duration-300">{bad.name}</div>
+              </button>
+          </div>
+        ))}
         </div>
+
         
       </div>
 
@@ -44,3 +65,14 @@ export default function Footer() {
    </div>
   )
 }
+
+
+
+
+
+        {/* <div className="flex gap-x-3 text-[0.7rem] sm:text-sm">
+          <Link href="#Home" className="border-b-2 hover:text-primary/100  duration-300 ">Home</Link>
+          <Link href="#About" className="border-b-2 hover:text-primary/100  duration-300 ">About</Link>
+          <Link href="#Work" className="border-b-2 hover:text-primary/100  duration-300 ">Work</Link>
+          <Link href="#Skills" className="border-b-2 hover:text-primary/100  duration-300 ">Skills</Link>
+        </div> */}

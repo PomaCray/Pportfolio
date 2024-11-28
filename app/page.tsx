@@ -18,7 +18,7 @@ export default function Home() {
   return (
     
     <div className="w-full">
-        <section  className=" h-[100vh] px-4 sm:px-10 " id="Home">
+        <section  className=" h-[100vh] px-4 sm:px-10 " id="Home" >
          <Top/>
         </section>
 
