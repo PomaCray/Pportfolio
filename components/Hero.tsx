@@ -44,7 +44,7 @@ export default function Hero() {
           transition={{delay:0.5}}
           viewport={{ once: true }}
         className='absolute sm:relative top-24 sm:top-12  '>
-            <Image src={'/pfpme.jpg'} alt='avatar' className='object-fit rounded-full shadow-2xl h-[12rem] w-[12rem] md:h-[18rem] md:w-[18rem]' width={100} height={100}/>
+            <Image src={'/pfpme.jpg'} alt='avatar' className='rounded-full shadow-2xl ' width={200} height={150} />
         </motion.div>
 
 </motion.div> 
