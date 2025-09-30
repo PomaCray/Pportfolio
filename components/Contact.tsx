@@ -5,7 +5,11 @@ const Contact = () => {
     <div className='font-mono text-primary/100'>
       <h2 className='text-2xl font-bold mb-4'>Contact Me</h2>
       <p>If you have any questions or inquiries, feel free to reach out!</p>
-      <form  className='mt-4'>
+      <form 
+        action="mailto:abdurrazaqawwal@gmail.com"
+        method="POST"
+        encType="text/plain"
+      className='mt-4'>
         <div className='mb-4'>
           <label htmlFor='name' className='block mb-2'>Name</label>
           <input type='text' id='name' className='border border-gray-300 p-2 w-full' />

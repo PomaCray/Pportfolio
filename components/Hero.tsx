@@ -3,13 +3,14 @@ import Image from 'next/image';
 import Typewriter from 'typewriter-effect';
 import ProjectsBtn from './ProjectBtn';
 import { AnimatePresence, motion } from "framer-motion";
+import ContactBtn from './ContactBtn';
 
 export default function Hero() {
   return (
     
    <motion.div 
 
-   className="flex flex-col sm:flex-row  gap-x-20 w-full px-1">
+   className="flex flex-col sm:flex-row w-full px-1">
         <div className="tracking-tight flex-1 font-mono flex flex-col text-primary/60">
           <motion.div
             initial={{opacity:0, x:15}}
@@ -32,8 +33,9 @@ export default function Hero() {
             whileInView="visible"
             transition={{delay:0.5}}
             viewport={{ once: true }}
-          className='mt-10'>
+          className='mt-10 flex gap-4'>
             <ProjectsBtn/>
+            <ContactBtn/>
           </motion.div>
 
 

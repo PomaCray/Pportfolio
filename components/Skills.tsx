@@ -71,9 +71,9 @@ const data =  [
 export default function Skills() {
   return (
    
-     <div className=' font-mono  text-primary/100 grid grid-cols-3 md:w-[50%] gap-3 px-6 mt-16 pt-16'>
+     <div className=' font-mono mx-auto text-primary/100 grid grid-cols-3 md:w-[50%] gap-3 px-6 mt-5 pt-5 '>
         {data.map((lola, idy) =>(
-            <div key={idy} className='flex flex-col items-center bg-white/10 py-4 rounded-lg px-8 shadow-xl cursor-pointer transition-all duration-100'>
+            <div key={idy} className='flex hover:scale-105 hover:translate-x-2 flex-col items-center bg-white/10 py-4 rounded-lg px-8 shadow-xl cursor-pointer transition-all duration-100'>
                 <div className='  text-4xl '>{lola.icon}</div>
                 <div className='  text-sm '>{lola.title}</div>
             </div>

@@ -85,7 +85,7 @@ export default function WorkSlide() {
                 <p className='max-w-[350px] leading-normal'>{pluto.description}</p>
               </div>
               <Link href={`${pluto.href}`} className='text-3xl flex mt-5 p-2 justify-end'>
-                <ArrowRight className='group-hover:rotate-45 group-hover:text-primary/60 transition-all duration-300 '/>
+                <ArrowRight className='group-hover:rotate-45 p-1 bg-primary/100 text-secondary rounded-full  transition-all duration-300 '/>
               </Link>
             </div>
           </SwiperSlide>
@@ -96,15 +96,3 @@ export default function WorkSlide() {
 
   )
 }
-// {workSlides.slides.map((pluto, seh)=>(
-//   <SwiperSlide>
-//     <div key={seh} className='grid h-full  grid-flow-col sm:grid-flow-col md:grid-rows-2 gap-x-3  '>
-//       {pluto.images.map((real, cap)=>(
-//         <div className='rounded-lg overflow-hidden flex items-center justify-center group mb-6 ' key={cap}>
-//         <Link href={`${real.href}`} className='flex items-center justify-center relative overflow-hidden group'>
-//           <Image src={real.path} width={500} height={300} alt='' className='object-contain ' />
-//           <div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#1c1c1d] to-[#4b494bbd] opacity-0 group-hover:opacity-80 transition-all duration-100'></div>
-         
-//         </Link>
-//       </div>
-//       ))}
