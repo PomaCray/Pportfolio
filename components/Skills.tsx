@@ -12,9 +12,9 @@ import {
     SiTypescript,
     SiTailwindcss,
     SiBootstrap,
-    SiSass,
     SiVisualbasic,
-    SiSolidity
+    SiSolidity,
+    SiNodedotjs
 } from 'react-icons/si'
 
 const data =  [
@@ -27,8 +27,8 @@ const data =  [
         icon: <FaCss3/>,
     },
     {
-        title: 'Sass',
-        icon: <SiSass/>,
+        title: 'Node.js',
+        icon: <SiNodedotjs/>,
     },
     {
         title: 'JavaScript',
@@ -39,8 +39,16 @@ const data =  [
         icon: <FaReact/>,
     },
     {
+        title: 'Solidity',
+        icon: <SiSolidity/>,
+    },
+    {
         title: 'Next.js',
         icon: <SiNextdotjs/>,
+    },
+    {
+        title: 'Typescript',
+        icon: < SiTypescript/>,
     },
     {
         title: 'Bootstrap',
@@ -51,20 +59,12 @@ const data =  [
         icon: <SiTailwindcss/>,
     },
     {
-        title: 'Figma',
-        icon: <FaFigma/>,
-    },
-    {
-        title: 'Typescript',
-        icon: < SiTypescript/>,
-    },
-    {
         title: 'Visualbasic',
         icon: <SiVisualbasic/>,
     },
     {
-        title: 'Solidity',
-        icon: <SiSolidity/>,
+        title: 'Figma',
+        icon: <FaFigma/>,
     },
 ]
 

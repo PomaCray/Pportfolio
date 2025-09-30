@@ -15,10 +15,11 @@ export default function Work() {
                 <div>
                     <p className="tracking-wide leading-8">
                     JavaScript-powered Dynamic Websites <br/>
-                    HTML and CSS Precision for Visual Excellence <br/>
-                    SCSS Styling for Enhanced Aesthetics <br/>
+                    HTML and Tailwind CSS Precision for Visual Excellence <br/>
                     React.js Magic for Interactive User Interfaces <br/>
                     Next.js Optimization for High-Performance Applications <br/>
+                    Node.js for Scalable Backend Services <br/>
+                    Solidity for Fully Decentralized Applications <br/>
                     Custom Web Solutions Tailored to Your Needs <br/>
                     Transformative Digital Experiences Delivered with Expertise.
                     </p>
