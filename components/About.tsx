@@ -17,7 +17,7 @@ export default function About() {
                 Welcome to my web development realm! Im Abdurrazaq Awwal<span className="text-primary/100">|Poma|</span>
               </h1>
               <p className="tracking-wide leading-8">
-              I am a passionate web developer who is proficient in JavaScript, HTML, Solidity, Tailwind, Node.js, React.js, and Next.js. With a passion for crafting dynamic websites and a keen eye for design, I specialize in creating visually appealing, seamless user experiences and crafting exceptional online experiences. Lets collaborate to bring your digital vision to life with cutting-edge technology and design.
+                    I am a passionate Web3 developer proficient in JavaScript, HTML, Solidity, Tailwind, Node.js, React.js, and Next.js. With expertise in smart contract development, blockchain integration, and marketing, I craft dynamic, user-focused websites and decentralized solutions. Let’s collaborate to bring your digital vision to life through innovation, seamless design, and Web3 technology.
               </p>
           </div>
 

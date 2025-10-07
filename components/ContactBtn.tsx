@@ -3,7 +3,7 @@ import { ArrowDown, ArrowRight } from 'lucide-react'
 const ContactBtn = () => {
   return(
 
-  <div className=" bg-primary/100 hover:translate-y-1 transition-all duration-300 w-min p-3 rounded-full shadow-2xl">
+  <div className=" bg-primary/100 hover:translate-y-1 transition-all duration-300 w-min p-3 rounded-full shadow-lg">
     <button 
      onClick={()=>{
       const element = document.getElementById('Contact');

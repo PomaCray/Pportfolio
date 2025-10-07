@@ -33,7 +33,7 @@ export default function Hero() {
             whileInView="visible"
             transition={{delay:0.5}}
             viewport={{ once: true }}
-          className='mt-10 flex gap-4'>
+          className='mt-10 flex gap-4 z-20'>
             <ProjectsBtn/>
             <ContactBtn/>
           </motion.div>

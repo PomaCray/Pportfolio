@@ -10,6 +10,12 @@ import { FreeMode, Pagination } from 'swiper/modules';
 import Link from 'next/link';
 
 const workSlides = [   
+      {
+      title: 'Sendit',
+      path: '/Seinder.png',
+      href: 'https://sender-psi.vercel.app/',
+      description: 'An Airdrop wesite made with Next.js, TailwindCSS, TypeScript, Wagmi and solidity for contracts.'
+    },
     {
       title: 'E-commerce',
       path: '/mockup-proj.png',
@@ -22,7 +28,12 @@ const workSlides = [
       href: 'https://carhub-mauve.vercel.app/',
       description: 'A Car website built with Next.js, Typescript and TailwindCSS.'
     },
-  
+      {
+      title: 'Crpt-Coffee',
+      path: '/coffee_me.png',
+      href: 'https://github.com/PomaCray/Fund_me',
+      description: 'A buy_me coffee with crypto app made with HTML, CSS, JavaScript and viem.'
+    },
     {
       title: 'Landing Page',
       path: '/success-proj.png',
@@ -72,7 +83,7 @@ export default function WorkSlide() {
       workSlides.map((pluto, seh)=>{
         return(
           <SwiperSlide key={seh} className='my-14'>
-            <div className=' bg-secondary text-primary/100 shadow-xl rounded-lg py-0 gap-x-6 sm:gap-x-0 group cursor-pointer  transition-all duration-300 '>
+            <div className=' bg-secondary text-primary/100 shadow-xl rounded-lg pt-0 pb-2 gap-x-6 sm:gap-x-0 group cursor-pointer  transition-all duration-300 '>
               
                 <Image 
                   src={`${pluto.path}`} 
@@ -84,7 +95,8 @@ export default function WorkSlide() {
                 <div className='mb-2 text-sm sm:text-xl font-medium'>{pluto.title}</div>
                 <p className='max-w-[350px] leading-normal'>{pluto.description}</p>
               </div>
-              <Link href={`${pluto.href}`} className='text-3xl flex mt-5 p-2 justify-end'>
+              <Link href={`${pluto.href}`} target='_blank' rel='noopener noreferrer' className='text-sm items-center w-fit hover:translate-x-2 hover:scale-105 transition-all duration-300 space-x-2 justify-end bg-primary/10 text-primary/100 flex mt-5 p-1 rounded-full mx-2'>
+                <p>click here</p>
                 <ArrowRight className='group-hover:rotate-45 p-1 bg-primary/100 text-secondary rounded-full  transition-all duration-300 '/>
               </Link>
             </div>
