@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import {motion} from 'framer-motion'
 const STORAGE_KEY = "contact_form_v1";
 const RECIPIENT = "abdurrazaqawwal@gmail.com";
 
@@ -87,7 +87,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="font-mono text-primary/100">
+    <motion.div
+            initial={{opacity:0, y:20}}
+            whileInView={{opacity:1, y:0}}
+            transition={{delay: 0.2}}
+            viewport={{ once: true }}
+    
+    className="font-mono text-primary/100">
       <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
       <p>If you have any questions or inquiries, feel free to reach out!</p>
 
@@ -159,7 +165,7 @@ const Contact = () => {
           </button>
         </div>
       </form>
-    </div>
+    </motion.div>
   );
 };
 

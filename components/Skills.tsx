@@ -6,7 +6,7 @@ import  {
     FaFigma, 
     
   } from 'react-icons/fa';
-    
+import { motion } from 'framer-motion'; 
 import {
     SiNextdotjs,
     SiTypescript,
@@ -73,10 +73,15 @@ export default function Skills() {
    
      <div className=' font-mono mx-auto text-primary/100 grid grid-cols-3 md:w-[50%] gap-3 px-6 mt-5 pt-5 '>
         {data.map((lola, idy) =>(
-            <div key={idy} className='flex hover:scale-105 hover:translate-x-2 flex-col items-center bg-white/10 py-4 rounded-lg px-8 shadow-xl cursor-pointer transition-all duration-100'>
+            <motion.div
+            initial={{opacity:0, y:20}}
+            whileInView={{opacity:1, y:0}}
+            transition={{delay: idy *0.2}}
+            viewport={{ once: true }}
+            key={idy} className='flex hover:scale-105 hover:translate-x-2 flex-col items-center bg-white/10 py-4 rounded-lg px-8 shadow-xl cursor-pointer transition-all duration-100'>
                 <div className='  text-4xl '>{lola.icon}</div>
                 <div className='  text-sm '>{lola.title}</div>
-            </div>
+            </motion.div>
         ))}
      </div>
 
