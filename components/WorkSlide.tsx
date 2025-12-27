@@ -21,7 +21,7 @@ const workSlides = [
   {
     title: "Megethos",
     path: "/Megethos.png",
-    href: "https://https://megethos-omnm.vercel.app/",
+    href: "https://megethos-omnm.vercel.app/",
     description:
       "A Web3 Task Tracker Landing page made with Next.js, TailwindCSS and TypeScript.",
   },
